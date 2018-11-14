@@ -1,0 +1,37 @@
+color hdrdefault green default
+color quoted blue default
+color signature blue default
+color attachment red default
+color message red default
+color error yellow default
+color indicator black brightwhite
+color status blue default
+color tree green default
+color normal green default
+color markers red default
+color search white default
+color tilde magenta default
+color index blue white default
+
+set ssl_starttls = yes
+set ssl_force_tls = yes
+set imap_user = ''
+set imap_pass = ''
+set from = ""
+set realname = ''
+set folder = imaps://imap.gmail.com:993
+set spoolfile = imaps://imap.gmail.com/INBOX
+set postponed = "+[GMail]/Drafts"
+set header_cache = "~/.config/neomutt/cache/headers"
+set message_cachedir = "~/.config/neomutt/cache/bodies"
+set certificate_file = "~/.config/neomutt/certificates"
+set smtp_url = 'smtp://ihenry@chef.io@smtp.gmail.com:587/'
+set imap_keepalive = 9999
+set editor = 'nvim'
+set mailcap_path = "~/.config/neomutt/mailcap"
+set signature = "~/.config/neomutt/signature"
+set content_type = "text/html"
+
+auto_view text/html
+alternative_order text/plain text/enriched text/html
+bind index "^" imap-fetch-mail

@@ -1,0 +1,5 @@
+# Dark theme.
+rofi.theme: ~/.config/rofi/themes/agila/rofi/rofi-dark.rasi
+rofi.font:  Iosevka Term, 10
+rofi.lines: 8
+rofi.width: -80

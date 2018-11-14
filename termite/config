@@ -1,0 +1,30 @@
+[options]
+font = Iosevka Term 10
+scrollback_lines = 10000
+hyperlinks = true
+browser = firefox
+
+[colors]
+foreground = #eeffff
+background = rgba(25, 29, 35, .95)
+highlight = #2f2f2f
+
+color0 = #1a1e24
+color1 = #252b33
+color2 = #252a34
+color3 = #3b4453
+color4 = #505964
+color5 = #cdd3df
+color6 = #dae0ed
+color7 = #cfcfcf
+color8 = #ee6165
+color9 = #fb924c
+color10 = #fac751
+color11 = #91b859
+color12 = #5bb3b4
+color13 = #6398cf
+color14 = #c28aa3
+color15 = #926b3e
+
+[hints]
+background = rgba(26, 30, 36, .9)

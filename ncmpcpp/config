@@ -1,0 +1,58 @@
+### Directories ###
+ncmpcpp_directory = ~/.config/ncmpcpp
+lyrics_directory  = ~/.config/ncmpcpp/lyrics
+mpd_music_dir     = ~/mus
+
+### Behaviour ###
+execute_on_song_change = "bash ~/.ncmpcpp/mpd-notification"
+message_delay_time = 1
+autocenter_mode = "yes"
+centered_cursor = "yes"
+ignore_leading_the = "yes"
+allow_for_physical_item_deletion = "no"
+
+### Visualizer ###  
+visualizer_fifo_path = /tmp/mpd.fifo
+visualizer_output_name = "mpd_visualizer"
+visualizer_in_stereo = "yes"
+visualizer_sample_multiplier = 2
+visualizer_sync_interval = 30
+
+### Appearance ###
+colors_enabled = "yes"
+playlist_display_mode = "columns"
+
+# Window #
+song_window_title_format = "mpd » {%a - }{%t}|{%f}"
+statusbar_visibility = "yes"
+header_visibility = "no"
+titles_visibility = "no"
+
+# Progress bar #
+#progressbar_look = "⠒⠒⠐"
+#progressbar_look = "•••"
+#progressbar_look = "---"
+#progressbar_look = "▀▀ "
+#progressbar_look = "╼·"
+progressbar_look = "━━━"
+#progressbar_look = "━━─"
+#progressbar_look = "◾◾◽"
+#progressbar_look = "─╼─"
+progressbar_color = "black"
+progressbar_elapsed_color = "white"
+progressbar_boldness = "yes"
+
+# Song status #
+song_status_format = "$b$1%t$/b {$8by} $b$1%a$8$/b"
+
+# Song list #
+song_list_format = "{$8%a ⠂ }{%t}$R{%l}"
+
+# Playlist #
+song_columns_list_format = "(50)[]{ar} (50)[]{t}"
+
+# Colors #
+main_window_highlight_color = "white"
+main_window_color = "white"
+color1 = "white"
+color2 = "red"
